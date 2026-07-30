@@ -357,3 +357,41 @@ section{
 }
 
 }
+#about p{
+    max-width: 800px;
+    margin: 15px auto;
+    line-height: 1.8;
+}
+
+@media (max-width:768px){
+
+#about{
+    text-align:center;
+}
+
+#about p{
+    font-size:16px;
+}
+
+}
+.leftt{
+    flex:1;
+}
+
+@media (max-width:768px){
+
+.leftt{
+    text-align:center;
+}
+
+}
+@media(max-width:768px){
+
+.nav-links{
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+}
