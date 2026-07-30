@@ -77,19 +77,19 @@ paintings.push(
         title: "The hidden river",
         artist: "Shahd Mostafa",
         price: 80000,
-        image: "images/p3.jpg"
+        image: "p3.jpg"
     },
     {
         title: "Silent roses",
         artist: "Rodaina Mostafa",
         price: 95000,
-        image: "images/p7.png"
+        image: "p7.png"
     },
     {
         title: "nature's whispers",
         artist: "Jana Naser",
         price: 79000,
-        image: "images/p5.png"
+        image: "p5.png"
     }
 );
 displayPaintings();
