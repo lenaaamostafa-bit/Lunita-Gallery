@@ -286,21 +286,27 @@ button:hover {
 @media (max-width:768px){
 
 .navbar{
-    flex-direction:column;
-    height:auto;
-    padding:20px;
-}
-
-.nav-links{
-    flex-direction:column;
+    display:flex;
+    justify-content:space-between;
     align-items:center;
-    gap:15px;
-    margin-top:15px;
+    padding:15px;
+    height:auto;
 }
 
 .name{
-    font-size:24px;
-    text-align:center;
+    font-size:22px;
+}
+
+.nav-links{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    gap:10px;
+}
+
+.nav-links a{
+    font-size:15px;
 }
 
 .banner{
@@ -310,13 +316,11 @@ button:hover {
 
 .container{
     flex-direction:column;
-    gap:30px;
-    padding:20px;
 }
 
 .form_area{
     width:100%;
-    max-width:350px;
+    max-width:340px;
 }
 
 .form_style,
@@ -338,10 +342,6 @@ button:hover {
     grid-template-columns:1fr;
 }
 
-.card{
-    max-width:100%;
-}
-
 #projects{
     padding:40px 20px;
 }
@@ -349,11 +349,18 @@ button:hover {
 #projects h1{
     text-align:center;
     margin-left:0;
-    font-size:30px;
 }
 
-section{
-    padding:40px 20px;
+#about{
+    text-align:center;
+}
+
+#about p{
+    font-size:16px;
+}
+
+.leftt{
+    text-align:center;
 }
 
 }
@@ -385,13 +392,4 @@ section{
 }
 
 }
-@media(max-width:768px){
 
-.nav-links{
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:15px;
-}
-
-}
