@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunita gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="name">Lunita Gallery</h2>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <img src="lunita.jfif" class="banner" alt="Banner">
+    </section>
+
+    <section id="about">
+        <h1>About</h1>
+        <p>Welcome to our store! 💗</p>
+        <p>Our journey started with a simple passion: creating and sharing unique products that bring joy to your everyday life. Every single item in our shop is handpicked and crafted with love, care, and high attention to detail. We don’t just want to sell products; we want to deliver a beautiful experience and a piece of happiness straight to your door.</p>
+        <p>Every Piece Tells a Story: We believe that products shouldn't just fill a space; they should carry a soul. In our shop, every single piece is carefully crafted to tell a different story—your story. From the first spark of inspiration to the final touch, we put our hearts into creating unique details that speak to you. When you buy from us, you’re not just taking home a product; you’re owning a piece of art, a moment of passion, and a beautiful tale waiting to be continued by you. Thank you for supporting our dream and being a part of our story!</p>
+        <section id="Best-seller">
+             <div class="left">
+                 <h2>Our #1 Best Seller: </h2>
+                <h3>mona Lena our ultimate masterpiece!</h3> 
+                <p>"The mona Lena" is our best seller painted by Lena Mostafa Ahmed Ali. It’s funny, artistic, beautiful, and completely unique. This painting quickly became everyone's favorite because it brings an unforgettable person, an instant conversation starter, and a huge smile to any room.</p>
+            </div>
+            <div class="right">
+                <img src="monaLena.jfif" alt="Mona Lena">
+            </div>
+        </section>
+    </section>
+
+    <section id="projects">
+        <h1>Shop</h1>
+    <div class="add-form">
+    <input type="text" id="title" placeholder="Name">
+    <input type="text" id="artist" placeholder="Artist">
+    <input type="number" id="price" placeholder="Price">
+    <input type="text" id="image" placeholder="Image">
+    <button onclick="addPainting()">Add Painting</button>
+    </div>
+    <div class="cards-container" id="cardsContainer"></div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+         <div class="container">
+        <div class="leftt"> 
+        <h3>Number: +20 1554381212</h3>
+        <h3>Gmail: lenaaamostafa@gmail.com</h3>
+        <h3>Yahoo: lenamostafa55@yahoo.com</h3>
+        </div>
+
+    <div class="form_area">
+        <p class="title">Fill this form to contact me!</p>
+        <form action="">
+            <div class="form_group">
+                <label class="sub_title" for="name">Name</label>
+                <input placeholder="Enter your full name" class="form_style" type="text">
+            </div>
+            <div class="form_group">
+                <label class="sub_title" for="email">Email</label>
+                <input placeholder="Enter your email" id="email" class="form_style" type="email">
+            </div>
+            <div class="form_group">
+                <label class="sub_title" for="password">Message</label>
+                <input placeholder="Enter your message" id="password" class="form_style">
+            </div>
+            <button>Submit</button>
+    </a></form></div><a class="link" href="">
+</a></div>
+    </section>
+  <script src="script.js"></script>
+</body>
+</html>
